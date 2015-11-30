@@ -1,0 +1,58 @@
+<html>
+<style type="text/css">
+.toppart{width: 100%;}
+</style>
+<title>UofT Course Scheduler</title>
+<table cellspacing='2' class="toppart" align='center'>
+<tr><td colspan=8 align="left" bgcolor=1D0E80 height=80 style="vertical-align: bottom;">
+<font face="Arial" color="white" size=5><br>
+University of Toronto: Course Scheduler
+</font></td>
+</tr><tr height=12>
+<td bgcolor=FF8080></td><td bgcolor=FFD851></td><td bgcolor=6ACF54></td>
+<td bgcolor=45D99E></td><td bgcolor=408080></td><td bgcolor=00A2E8></td>
+<td bgcolor=A349A4></td><td bgcolor=DB9A37></td>
+</tr></table>
+<br><br>
+<font face="Arial"><div align="center">
+<table cellpadding='20' width=650><tr>
+<td align='left' width=300>
+Are you trying to figure out your course plans before ROSI opens?
+Wasting lots of time with Google calendar and/or Excel?
+This UofT course scheduler allows you to preview your timetable for courses
+in Engineering or Arts and Science* at the St. George campus.
+<br><br>
+To register a new account or log back into the service, enter your username (Minimum of 4 characters, alphanumeric only):
+<br><br>
+<form action="timetable.php?sem=fall" id='login' method='post'>
+Your username: <input type="text" name="utor" size='8'>
+<input type="submit" value="Login" name="action">
+</form>
+</td>
+<td bgcolor=C6CBBE style="vertical-align: top;"><b>Benefits</b>:<br>
+- Displays Fall and Winter timetables in convenient calendar format<br>
+- Enables easy adding/deleting of courses and tutorials<br>
+- (Engineers only) Identifies Humanities electives<br>
+- Automatically generates a timetable with the fewest possible section
+conflicts given a series of courses (beta feature!)</td>
+</tr>
+<tr><td colspan=2>
+<b>Important Note:</b> All timetables created before July 30 2013 had to be removed 
+in order to comply with Faculty regulations concerning privacy and security, as 
+those timetables were created using UTORids as the usernames. I apologize for
+any inconvenience. Please do NOT use your UTORid as a username when using this tool.
+</tr>
+<tr><td colspan=2>
+<font size=2>*Not all ArtSci courses may be in the system. This is due to
+inconsistent formatting of the official ArtSci timetable listings. Please
+contact me for any concerns. </font>
+</td></tr>
+</table>
+<footer><font size=2>
+This course scheduling tool was created by Tzuo Shuin Yew (University of Toronto ECE Class of 2014).<br>
+If you have any questions or contributions, please <a href='mailto:uoftscheduler@gmail.com'>contact me</a>. | <a href='disclaimer.html'>Website Disclaimer</a></font>
+</footer>
+</div>
+</font>
+
+</html>
